@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  color: #EAF6F6;
+  border: none;
+  border-top: 10px dotted;
+  width: 5%;
+  margin: 50px auto;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color:#EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.first-cloud {
+  position: absolute;
+  left: 60%;
+  top: 50px;
+}
+
+.second-cloud {
+  position: absolute;
+  left: 30%;
+  bottom: 300px;
+}
+
+.profile-img {
+  position: relative;
+  top: 2px;
+  padding-top: 50px;
+}
+
+.mountain-img {
+  position: relative;
+  top: 4px;
+}
+
+.first-h2 {
+  font-weight: normal;
+  margin-top: 66.4px;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skill-heading {
+  text-align: left;
+}
+
+.skill-description {
+  text-align: left;
+  line-height: 2;
+}
+
+.hospitality-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.html-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-h3 {
+  margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  margin: 50px;
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+}
+
+.cc {
+  color: #EAF6F6;
+  padding-bottom: 40px;
+}
+
+.btn {
+  margin: 50px auto;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #1E62D0;
+   border: solid #0059A0 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
