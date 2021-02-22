@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color: #40514E;
 }
 
 h1 {
@@ -15,15 +16,12 @@ h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Rubik', sans-serif;
   color: #11999E;
-}
-
-p {
-  color: #40514E;
 }
 
 hr {
@@ -36,10 +34,19 @@ hr {
 
 a {
   color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
 }
 
 .top-container {
-  background-color:#EAF6F6;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
@@ -85,7 +92,6 @@ a {
 
 .skill-description {
   text-align: left;
-  line-height: 2;
 }
 
 .hospitality-img {
@@ -98,14 +104,24 @@ a {
   margin-left: 30px;
 }
 
+.css-img {
+  float: left;
+  margin-right: 30px;
+}
+
 .contact-h3 {
   margin: 50px auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   position: relative;
-  padding-top: 100px;
+  padding: 100px 0 20px;
   margin-bottom: 0;
 }
 
@@ -118,31 +134,32 @@ a {
 
 .cc {
   color: #EAF6F6;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  font-size: 0.85rem;
 }
 
 .btn {
-  margin: 50px auto;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 40px;
-   font-weight: 100;
-   padding: 40px;
-   background-color: #11999E;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  margin: 60px auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
-   background: #1E62D0;
-   border: solid #0059A0 1px;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  background: #1E62D0;
+  border: solid #0059A0 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
